@@ -46,17 +46,19 @@ namespace Henkilöluokka2
         {
         
                 IFormatter formatter = new BinaryFormatter();
-
+            if (File.Exists("Perhe.txt")
+                {
                 Stream stream = new FileStream("Perhe.txt", FileMode.Open, FileAccess.Read);
-            try
-            {
-                perheet = (List<Perhe>)formatter.Deserialize(stream);
-            }
-            catch
-            {
+                try
+                {
+                    perheet = (List<Perhe>)formatter.Deserialize(stream);
+                }
+                catch
+                {
 
-            }
+                }
                 stream.Close();
+            }
             
         }
 
