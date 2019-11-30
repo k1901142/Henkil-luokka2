@@ -137,7 +137,7 @@ namespace Henkilöluokka2
             {
                 Console.WriteLine("Anna henkilön nimi?");
                 string nimi = Console.ReadLine();
-                Console.WriteLine("Anna syntymäpäiväsi");
+                Console.WriteLine("Anna syntymäpäiväsi (pp.kk.vvvv)");
                 string späivä = Console.ReadLine();
 
                 Henkilö mina = new Henkilö(nimi, späivä);
