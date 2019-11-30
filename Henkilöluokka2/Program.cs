@@ -157,14 +157,14 @@ namespace Henkilöluokka2
 
                 Console.WriteLine("Anna äidin nimi?");   //Äidin tiedot
                 string nimi_äiti = Console.ReadLine();
-                Console.WriteLine("Anna syntymäpäivä");
+                Console.WriteLine("Anna syntymäpäivä  (pp.kk.vvvv)");
                 string späivää_äiti = Console.ReadLine();
 
                 Henkilö äiti = new Henkilö(nimi_äiti, späivää_äiti);
 
                 Console.WriteLine("Anna isän nimi?");    //Isän tiedot
                 string nimi_isä = Console.ReadLine();
-                Console.WriteLine("Anna syntymäpäivä");
+                Console.WriteLine("Anna syntymäpäivä  (pp.kk.vvvv)");
                 string späivää_isä = Console.ReadLine();
 
 

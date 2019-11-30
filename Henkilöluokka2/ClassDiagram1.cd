@@ -3,12 +3,12 @@
   <Class Name="Henkilöluokka2.Henkilö">
     <Position X="7.5" Y="2.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAoAAAIAAAACABAAAAAAAhEAACAAgAEQAAAAAAIA=</HashCode>
+      <HashCode>AAAAAoAAAIAAAACABAAAAAAAhEAACAAgAEQAAAAAAYA=</HashCode>
       <FileName>Henkilö.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Henkilöluokka2.Perhe">
-    <Position X="3.25" Y="2.75" Width="1.5" />
+    <Position X="5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAgAAAAAAAAABAEgABCgAAAAAAAAAAAAAAAMAAAAgA=</HashCode>
       <FileName>Perhe.cs</FileName>
@@ -31,21 +31,21 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Henkilöluokka2.Kissa" Collapsed="true">
-    <Position X="2.75" Y="1" Width="1.5" />
+    <Position X="3.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQA=</HashCode>
       <FileName>Kissa.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Henkilöluokka2.Koira" Collapsed="true">
     <Position X="4.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQA=</HashCode>
       <FileName>Koira.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Henkilöluokka2.Talonyhtiö">
-    <Position X="0.5" Y="2.75" Width="1.5" />
+    <Position X="2.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAIAAAAIAAAAAIAAAAAAAAAAAAAAAAAAAAQgAAA=</HashCode>
       <FileName>Talonyhtiö.cs</FileName>
