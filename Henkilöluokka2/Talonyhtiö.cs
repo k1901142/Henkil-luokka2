@@ -46,8 +46,8 @@ namespace Henkilöluokka2
         {
         
                 IFormatter formatter = new BinaryFormatter();
-            if (File.Exists("Perhe.txt"))   //Testaa tiedoston olemassa olon
-            {
+            if (File.Exists("Perhe.txt")
+                {
                 Stream stream = new FileStream("Perhe.txt", FileMode.Open, FileAccess.Read);
                 try
                 {
@@ -59,6 +59,7 @@ namespace Henkilöluokka2
                 }
                 stream.Close();
             }
+            
         }
 
         
