@@ -44,7 +44,7 @@ namespace Henkilöluokka2
         }
         public void lataa()      //Lataa perheet tiedostosta
         {
-                                                    //yritetään saada repoon
+                                                    
 
             IFormatter formatter = new BinaryFormatter();
             if (File.Exists("Perhe.txt"))   //Testaa onko tiedosto olemassa

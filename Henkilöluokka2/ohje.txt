@@ -1,0 +1,9 @@
+Henkilöluokka2
+
+Ohjelmalla voi tehdä seuraavaa
+-    Laskea henkilön iän tänään  (1.)
+      o	    Anna henkilön nimi ja syntymäpäivä
+-    Lisätä perheitä koneen muistiin (2.)
+      o     Perhessä on isä ja äiti sekä 0-X lasta. Myös yksi lemmikki voi kuulua perheeseen
+-   Ohjelmaan tallennetut perheet voi tulostaa. (3.)
+Voit tallentaa (4.) tai alustaa (5.)perheet koska vain haluat. Lataaminen tapahtuu ohjelman käynnistyessä ja tallennuksen voi suorittaa, kun ohjelma sammutetaan valikon valinnalla 9. 
