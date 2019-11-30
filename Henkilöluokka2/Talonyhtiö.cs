@@ -44,10 +44,12 @@ namespace Henkilöluokka2
         }
         public void lataa()      //Lataa perheet tiedostosta
         {
-        
-                IFormatter formatter = new BinaryFormatter();
-            if (File.Exists("Perhe.txt")
-                {
+                                                    //yritetään saada repoon
+
+            IFormatter formatter = new BinaryFormatter();
+            if (File.Exists("Perhe.txt"))   //Testaa onko tiedosto olemassa
+            {
+
                 Stream stream = new FileStream("Perhe.txt", FileMode.Open, FileAccess.Read);
                 try
                 {
@@ -58,10 +60,10 @@ namespace Henkilöluokka2
 
                 }
                 stream.Close();
-            }
-            
-        }
 
+
+            }
         
+        }
     }
 }
