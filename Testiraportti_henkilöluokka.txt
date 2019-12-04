@@ -1,0 +1,69 @@
+Testiraportti
+
+CASE Laske ik‰
+Testi#1
+Nimi Eetu Syntynyt 23.03.2020
+H‰n on -1 vuotta 8 kuukautta ja 11 p‰iv‰‰ vanha.
+
+TULOS
+Ohjelmalle pystyy antamaan syntym‰p‰iv‰ksi tulevan p‰iv‰m‰‰r‰n. Ohjelma antaa tulokseksi negatiivisen luvun, hieman erikoisesti laskettuna.
+
+Testi#2
+Nimi Kirsi Syntynyt 12.12.2003
+H‰n on 15 vuotta 11 kuukautta ja 22 p‰iv‰‰ vanha.
+
+TULOS
+Hyv‰ksytt‰v‰ syntym‰p‰iv‰, ohjelma toimii moitteettomasti.
+
+Testi#3
+Syntym‰p‰iv‰ 12.13.2000
+
+TULOS
+Ohjelma kaatuu virheelliseen p‰iv‰m‰‰r‰‰n.
+
+Testi#4
+Syntym‰p‰iv‰ 00.00.0000
+
+TULOS
+Ohjelma kaatuu virheelliseen p‰iv‰m‰‰r‰‰n.
+
+CASE Lis‰‰ perhe
+Testi#1
+Painetaan ENTER, kun kysyt‰‰n lasten m‰‰r‰‰.
+
+TULOS
+Ohjelma kaatuu, ilmoitus "Syˆtemerkkijonon muoto ei ollut kelvollinen."
+
+Test#2
+Syˆtet‰‰n kirjain d, kun kysyt‰‰n lasten m‰‰r‰‰.
+
+TULOS
+Ohjelma kaatuu, ilmoitus "Syˆtemerkkijonon muoto ei ollut kelvollinen."
+
+Testi#3
+Lis‰‰ perhe
+Montako lasta?
+2
+Anna ‰idin nimi?
+Leena
+Anna syntym‰p‰iv‰  (pp.kk.vvvv)
+31.12.1982
+Anna is‰n nimi?
+Jaakko
+Anna syntym‰p‰iv‰  (pp.kk.vvvv)
+12.12.1980
+Anna lapsen 1 nimi?
+Eetu
+Anna lapsen 1 syntym‰p‰iv‰
+02.01.2010
+Anna lapsen 2 nimi?
+Rauni
+Anna lapsen 2 syntym‰p‰iv‰
+22.01.2012
+Onko lemmikki‰ k/e
+e
+
+TULOS
+Ohjelma toimii moitteettomasti.
+
+
